@@ -8,6 +8,15 @@
         "revision" : "354dda32d89fc8cd4f5c46487f64957d355f53d8",
         "version" : "5.6.1"
       }
+    },
+    {
+      "identity" : "swift-api-manager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/brainx-technologies/swift-api-manager",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9c72588b46a212ece1bd70a6d04091c229aeca6a"
+      }
     }
   ],
   "version" : 2
