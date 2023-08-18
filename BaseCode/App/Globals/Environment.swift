@@ -15,8 +15,8 @@ enum Environment {
 
     static var current: Environment { .development }
 
-    static var baseUrl: URL? {
-        switch current {
+    var baseUrl: URL? {
+        switch self {
         case .development:
             return URL(string: "dev_url")
         case .staging:

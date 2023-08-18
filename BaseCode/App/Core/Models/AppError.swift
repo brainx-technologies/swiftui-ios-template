@@ -7,17 +7,17 @@
 
 import Foundation
 
-class AppError: Codable, Error {
+class AppError: Codable, LocalizedError {
 
-    var localizedDescription: String
+    var errorDescription: String?
 
     init(message: String) {
-        self.localizedDescription = message
+        self.errorDescription = message
     }
 
     private enum CodingKeys: String, CodingKey {
 
-        case localizedDescription = "error"
+        case errorDescription = "error"
 
     }
 

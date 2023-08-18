@@ -14,8 +14,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/brainx-technologies/swift-api-manager",
       "state" : {
-        "branch" : "main",
-        "revision" : "9c72588b46a212ece1bd70a6d04091c229aeca6a"
+        "revision" : "9c72588b46a212ece1bd70a6d04091c229aeca6a",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swift-dependency-injection",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/brainx-technologies/swift-dependency-injection",
+      "state" : {
+        "revision" : "955fdc93c4b02a20af4958822c58fad11b90b0cd",
+        "version" : "1.0.1"
       }
     }
   ],
