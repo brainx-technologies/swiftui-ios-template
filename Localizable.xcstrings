@@ -1,0 +1,21 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Hello" : {
+
+    },
+    "Ok" : {
+
+    },
+    "show" : {
+
+    },
+    "Splash" : {
+
+    },
+    "Start Loading" : {
+
+    }
+  },
+  "version" : "1.0"
+}
