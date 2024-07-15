@@ -11,7 +11,6 @@
 		18465D3C2C452263002D7186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465D3B2C452263002D7186 /* ContentView.swift */; };
 		18465D3E2C452265002D7186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18465D3D2C452265002D7186 /* Assets.xcassets */; };
 		18465D412C452265002D7186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18465D402C452265002D7186 /* Preview Assets.xcassets */; };
-		18465D4E2C45231D002D7186 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 18465D4D2C45231D002D7186 /* Localizable.xcstrings */; };
 		18465D502C452327002D7186 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 18465D4F2C452327002D7186 /* InfoPlist.xcstrings */; };
 		18465D582C4523B6002D7186 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465D572C4523B6002D7186 /* Environment.swift */; };
 		18465D5B2C452402002D7186 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465D5A2C452402002D7186 /* AppError.swift */; };
@@ -27,6 +26,7 @@
 		18465D762C452B78002D7186 /* BindingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465D752C452B77002D7186 /* BindingModifier.swift */; };
 		18465D792C452E60002D7186 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465D782C452E60002D7186 /* SplashView.swift */; };
 		18465D7B2C452E8B002D7186 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18465D7A2C452E8B002D7186 /* SplashViewModel.swift */; };
+		18465D7D2C453B7E002D7186 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 18465D7C2C453B7E002D7186 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		18465D3B2C452263002D7186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18465D3D2C452265002D7186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18465D402C452265002D7186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		18465D4D2C45231D002D7186 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = SOURCE_ROOT; };
 		18465D4F2C452327002D7186 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		18465D572C4523B6002D7186 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		18465D5A2C452402002D7186 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		18465D752C452B77002D7186 /* BindingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingModifier.swift; sourceTree = "<group>"; };
 		18465D782C452E60002D7186 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		18465D7A2C452E8B002D7186 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		18465D7C2C453B7E002D7186 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		18465D4C2C45230F002D7186 /* Localizations */ = {
 			isa = PBXGroup;
 			children = (
-				18465D4D2C45231D002D7186 /* Localizable.xcstrings */,
+				18465D7C2C453B7E002D7186 /* Localizable.xcstrings */,
 				18465D4F2C452327002D7186 /* InfoPlist.xcstrings */,
 			);
 			path = Localizations;
@@ -293,8 +293,8 @@
 			files = (
 				18465D412C452265002D7186 /* Preview Assets.xcassets in Resources */,
 				18465D3E2C452265002D7186 /* Assets.xcassets in Resources */,
+				18465D7D2C453B7E002D7186 /* Localizable.xcstrings in Resources */,
 				18465D502C452327002D7186 /* InfoPlist.xcstrings in Resources */,
-				18465D4E2C45231D002D7186 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
